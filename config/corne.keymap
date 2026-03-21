@@ -5,8 +5,8 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     combos {
@@ -90,6 +90,31 @@
         n1 {
             bindings = <&kp N1>;
             key-positions = <1 0>;
+        };
+
+        n2 {
+            bindings = <&kp N2>;
+            key-positions = <1 2>;
+        };
+
+        n3 {
+            bindings = <&kp N3>;
+            key-positions = <2 3>;
+        };
+
+        n4 {
+            bindings = <&kp N4>;
+            key-positions = <3 4>;
+        };
+
+        n5 {
+            bindings = <&kp N5>;
+            key-positions = <4 5>;
+        };
+
+        n6 {
+            bindings = <&kp N6>;
+            key-positions = <6 7>;
         };
     };
 
